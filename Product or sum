@@ -1,0 +1,15 @@
+ 
+def ProductOrSum(num1,num2) :
+    result1 = num1 * num2
+    result2 = num1 + num2
+    if result1 > 1000:
+        return result1
+    else:
+        return result2
+        
+numb1=10
+numb2=30
+
+finalresult = ProductOrSum(numb1,numb2)
+
+print("The final result is ",finalresult)
